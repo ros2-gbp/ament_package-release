@@ -2,6 +2,11 @@
 Changelog for package ament_package
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.16.2 (2023-05-12)
+-------------------
+* Add setuptools dependency back in. (`#141 <https://github.com/ament/ament_package/issues/141>`_)
+* Contributors: Chris Lalancette
+
 0.16.1 (2023-05-11)
 -------------------
 * Make python dependencies exec_depend. (`#140 <https://github.com/ament/ament_package/issues/140>`_)
