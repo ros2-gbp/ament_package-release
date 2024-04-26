@@ -2,6 +2,9 @@
 Changelog for package ament_package
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.17.0 (2024-04-26)
+-------------------
+
 0.16.3 (2024-01-24)
 -------------------
 * Migrate from legacy importlib-resources (`#143 <https://github.com/ament/ament_package/issues/143>`_)
