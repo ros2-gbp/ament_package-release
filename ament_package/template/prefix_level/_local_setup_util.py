@@ -48,10 +48,8 @@ def main(argv=sys.argv[1:]):  # noqa: D103
         FORMAT_STR_USE_ENV_VAR = '${name}'
         FORMAT_STR_INVOKE_SCRIPT = 'AMENT_CURRENT_PREFIX="{prefix}" ' \
             '_ament_prefix_sh_source_script "{script_path}"'
-        FORMAT_STR_REMOVE_LEADING_SEPARATOR = 'if [ "$(echo -n ${name} | ' \
-            'head -c 1)" = ":" ]; then export {name}=${{{name}#?}} ; fi'
-        FORMAT_STR_REMOVE_TRAILING_SEPARATOR = 'if [ "$(echo -n ${name} | ' \
-            'tail -c 1)" = ":" ]; then export {name}=${{{name}%?}} ; fi'
+        FORMAT_STR_REMOVE_LEADING_SEPARATOR = 'export {name}=${{{name}#:}}'
+        FORMAT_STR_REMOVE_TRAILING_SEPARATOR = 'export {name}=${{{name}%:}}'
     elif args.primary_extension == 'bat':
         FORMAT_STR_COMMENT_LINE = ':: {comment}'
         FORMAT_STR_SET_ENV_VAR = 'set "{name}={value}"'
@@ -252,11 +250,11 @@ def process_dsv_file(
         else:
             # group remaining source lines by basename
             path_without_ext, ext = os.path.splitext(remainder)
+            if path_without_ext not in basenames:
+                basenames[path_without_ext] = set()
             assert ext.startswith('.')
             ext = ext[1:]
             if ext in (primary_extension, additional_extension):
-                if path_without_ext not in basenames:
-                    basenames[path_without_ext] = set()
                 basenames[path_without_ext].add(ext)
 
     # add the dsv extension to each basename if the file exists
