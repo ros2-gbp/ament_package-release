@@ -1,3 +1,26 @@
+## ament_package (humble) - 0.14.1-1
+
+The packages in the `ament_package` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble --track humble ament_package` on `Wed, 21 May 2025 08:28:54 -0000`
+
+The `ament_package` package was released.
+
+Version of package(s) in repository `ament_package`:
+
+- upstream repository: https://github.com/ament/ament_package.git
+- release repository: https://github.com/ros2-gbp/ament_package-release.git
+- rosdistro version: `0.14.0-4`
+- old version: `0.14.0-4`
+- new version: `0.14.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## ament_package (rolling) - 0.18.0-1
 
 The packages in the `ament_package` repository were released into the `rolling` distro by running `/home/cottsay/infra_ws/install/bloom/bin/bloom-release ament_package -r rolling` on `Thu, 24 Apr 2025 17:40:08 -0000`
