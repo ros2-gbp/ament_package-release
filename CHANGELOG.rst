@@ -2,59 +2,10 @@
 Changelog for package ament_package
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.18.0 (2025-04-24)
+0.14.1 (2025-05-21)
 -------------------
-
-0.17.2 (2025-04-17)
--------------------
-* Simplify removing leading and trailing separators (`#152 <https://github.com/ament/ament_package/issues/152>`_)
-* Remove CODEOWNERS and mirror-rolling-to-master. (`#149 <https://github.com/ament/ament_package/issues/149>`_)
-* Contributors: Chris Lalancette, Rob Woolley
-
-0.17.1 (2024-06-17)
--------------------
-* Always consider .dsv files, even when no shell specific script exists (`#147 <https://github.com/ament/ament_package/issues/147>`_)
-* Contributors: Addisu Z. Taddese
-
-0.17.0 (2024-04-26)
--------------------
-
-0.16.3 (2024-01-24)
--------------------
-* Migrate from legacy importlib-resources (`#143 <https://github.com/ament/ament_package/issues/143>`_)
-* Contributors: Isabel Paredes
-
-0.16.2 (2023-05-12)
--------------------
-* Add setuptools dependency back in. (`#141 <https://github.com/ament/ament_package/issues/141>`_)
-* Contributors: Chris Lalancette
-
-0.16.1 (2023-05-11)
--------------------
-* Make python dependencies exec_depend. (`#140 <https://github.com/ament/ament_package/issues/140>`_)
-* Contributors: Chris Lalancette
-
-0.16.0 (2023-04-27)
--------------------
-
-0.15.3 (2023-04-11)
--------------------
-* Add support for comment lines in dsv files (`#139 <https://github.com/ament/ament_package/issues/139>`_)
-* Contributors: Scott K Logan
-
-0.15.2 (2023-02-14)
--------------------
-* [rolling] Update maintainers - 2022-11-07 (`#138 <https://github.com/ament/ament_package/issues/138>`_)
-* Contributors: Audrow Nash
-
-0.15.1 (2022-09-13)
--------------------
-* Mirror rolling to master
-* Remove unused isolated prefix level templates (`#133 <https://github.com/ament/ament_package/issues/133>`_)
-* Contributors: Audrow Nash, Shane Loretz
-
-0.15.0 (2022-04-29)
--------------------
+* Simplify removing leading and trailing separators (`#152 <https://github.com/ament/ament_package/issues/152>`_) (`#154 <https://github.com/ament/ament_package/issues/154>`_)
+* Contributors: mergify[bot]
 
 0.14.0 (2022-01-18)
 -------------------
