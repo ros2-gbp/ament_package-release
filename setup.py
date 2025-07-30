@@ -5,7 +5,7 @@ package_name = 'ament_package'
 
 setup(
     name=package_name,
-    version='0.14.1',
+    version='0.18.1',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/' + package_name, ['package.xml']),
@@ -15,14 +15,13 @@ setup(
     zip_safe=True,
     author='Dirk Thomas',
     author_email='dthomas@osrfoundation.org',
-    maintainer='Audrow Nash',
-    maintainer_email='audrow@openrobotics.org',
+    maintainer='Dharini Dutia',
+    maintainer_email='dharini@openrobotics.org',
     url='https://github.com/ament/ament_package/wiki',
     download_url='https://github.com/ament/ament_package/releases',
     keywords=['ROS'],
     classifiers=[
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python',
         'Topic :: Software Development',
     ],
@@ -31,11 +30,14 @@ setup(
 Ament defines metainformation for packages, their dependencies,
 and provides tooling to build these federated packages together.""",
     license='Apache License, Version 2.0',
-    tests_require=['flake8', 'pytest'],
+    extras_require={
+        'test': [
+            'pytest', 'flake8',
+        ],
+    },
     package_data={
         'ament_package': [
             'template/environment_hook/*',
-            'template/isolated_prefix_level/*',
             'template/package_level/*',
             'template/prefix_level/*',
         ],
