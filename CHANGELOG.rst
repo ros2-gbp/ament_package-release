@@ -2,11 +2,24 @@
 Changelog for package ament_package
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.17.3 (2026-04-08)
+0.18.3 (2026-04-08)
 -------------------
-* Remove unneeded deps (`#161 <https://github.com/ament/ament_package/issues/161>`_) (`#162 <https://github.com/ament/ament_package/issues/162>`_)
-* fix setuptools deprecations (`#156 <https://github.com/ament/ament_package/issues/156>`_) (`#158 <https://github.com/ament/ament_package/issues/158>`_)
-* Contributors: mergify[bot]
+* feat: add support for fish (`#164 <https://github.com/ament/ament_package/issues/164>`_)
+* Fix flake8 (`#163 <https://github.com/ament/ament_package/issues/163>`_)
+* Contributors: Michael Carlstrom, SPeak
+
+0.18.2 (2025-11-28)
+-------------------
+* Remove unneeded deps (`#161 <https://github.com/ament/ament_package/issues/161>`_)
+* Contributors: Michael Carlstrom
+
+0.18.1 (2025-07-30)
+-------------------
+* fix setuptools deprecations (`#156 <https://github.com/ament/ament_package/issues/156>`_)
+* Contributors: mosfet80
+
+0.18.0 (2025-04-24)
+-------------------
 
 0.17.2 (2025-04-17)
 -------------------
