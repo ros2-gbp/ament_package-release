@@ -1,3 +1,26 @@
+## ament_package (rolling) - 0.19.0-1
+
+The packages in the `ament_package` repository were released into the `rolling` distro by running `/usr/local/google/home/sloretz/projects/lyrical/env3/bin/bloom-release -r rolling -t rolling ament_package` on `Tue, 05 May 2026 17:24:45 -0000`
+
+The `ament_package` package was released.
+
+Version of package(s) in repository `ament_package`:
+
+- upstream repository: https://github.com/ament/ament_package.git
+- release repository: https://github.com/ros2-gbp/ament_package-release.git
+- rosdistro version: `0.18.3-2`
+- old version: `0.18.3-2`
+- new version: `0.19.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## ament_package (kilted) - 0.17.3-1
 
 The packages in the `ament_package` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted --track kilted ament_package` on `Wed, 08 Apr 2026 11:04:14 -0000`
